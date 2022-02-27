@@ -66,6 +66,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  object-fit: cover;
   z-index: 1;
 }
 
@@ -98,11 +99,11 @@
 }
 
 .two-columns__brief {
+  margin-top: 0px;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .two-columns__main-text {
@@ -114,9 +115,14 @@
 }
 
 .two-columns__paragraph {
+  margin: 0 auto;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.two-columns__paragraph_margin-bottom {
+  margin-bottom: 30px;
 }
 
 .two-columns__span-accent {
@@ -299,6 +305,7 @@
 }
 
 .footer__column-heading {
+  margin: 0px 0px 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -314,5 +321,5 @@
 }
 
 .social-ikons {
-
+  padding-right: 10px;
 }
