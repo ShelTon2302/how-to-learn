@@ -109,7 +109,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #000;
+  color: #2f80ed;;
 }
 
 .two-columns__main-text {
@@ -270,6 +270,7 @@
   position: absolute;
   top: 0;
   right: -210px;
+  background-image: url(../images/triangle.svg);
   z-index: -1;
 }
 
@@ -321,6 +322,6 @@
   text-decoration: none;
 }
 
-.footer__social-ikons {
+.footer__social-icon {
   padding-right: 10px;
 }
