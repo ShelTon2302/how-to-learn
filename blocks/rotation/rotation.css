@@ -10,5 +10,4 @@
 .rotation {
   animation: rotation;
   animation: rotation 40s linear infinite normal;
-  overflow: hidden;
 }
